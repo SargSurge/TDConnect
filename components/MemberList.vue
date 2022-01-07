@@ -11,7 +11,7 @@ import MemberCard from './MemberCard.vue';
 
 export default {
   name: 'MemberList',
-  components: [MemberCard],
+  components: {MemberCard},
   props: ['members'],
   data() {
       return {

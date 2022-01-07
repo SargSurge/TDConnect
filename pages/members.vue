@@ -2,7 +2,19 @@
   <v-row>
     <v-col class="text-center">
       <h1>Members of TDC</h1>
-      <MemberList style="margin-top:30px" v-bind:members="members2023" />
+      <v-btn
+        v-for="year in [2022, 2023, 2024, 2025]"
+        v-bind:key="year"
+        v-on:click="selectedYear = year"
+        style="margin:10px;"
+        color="navy"
+        elevation="1"
+        outlined
+        tile
+        x-large
+        :disabled="selectedYear == year"
+      >{{year}}</v-btn>
+      <MemberList style="margin-top:30px" v-bind:members="selectedMembers" />
     </v-col>
   </v-row>
 </template>
@@ -12,10 +24,16 @@ import MemberList from '../components/MemberList.vue';
 
 export default {
   name: 'MembersPage',
-  components: [MemberList],
+  components: {MemberList},
+  computed: {
+    selectedMembers() {
+      return this.members.filter(m => m.year == this.selectedYear);
+    }
+  },
   data () {
     return {
-      members2023: [
+      selectedYear: 2022,
+      members: [
           {
             name: 'Sergio Perez',
             hometown: 'Lakeland, FL',
