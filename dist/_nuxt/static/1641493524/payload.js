@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{_img:{"/tdconnect/_ipx/h_50/tdc.png":"\u002Ftdconnect\u002F_nuxt\u002Fimage\u002F2fbf53.png","/tdconnect/_ipx/h_200/tdc-big.png":"\u002Ftdconnect\u002F_nuxt\u002Fimage\u002Fd1e29f.png"}}],fetch:{},mutations:void 0});
