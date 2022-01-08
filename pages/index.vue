@@ -1,12 +1,12 @@
 <template>
     <v-parallax
       dark
-      src="https://drive.google.com/uc?export=view&id=1hiA1HbYy-GPr0lJny5D2vpDnirJ6c62b"
-      height="600"
+      src="https://drive.google.com/uc?export=view&id=1-ZmlogsAQ0JfUzTaF0gk1vbpnr8DBhSB"
+      height="800"
     >
       <v-row justify="center" align="center">
         <v-col class="text-center" cols="12" sm="8" md="6">
-          <v-overlay absolute>
+          <v-overlay opacity=".05" absolute>
             <nuxt-img 
               height="200px"
               src='/tdc-big.png'
