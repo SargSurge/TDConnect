@@ -13,10 +13,10 @@
       </NuxtLink>
       <!-- <v-toolbar-title v-text="title" /> -->
       <v-spacer />
+      <v-btn icon v-on:click="$vuetify.theme.dark = !$vuetify.theme.dark">
+          <v-icon>mdi-white-balance-sunny</v-icon>
+      </v-btn>
       <v-app-bar-items class="hidden-sm-and-down">
-          <v-btn icon v-on:click="$vuetify.theme.dark = !$vuetify.theme.dark">
-            <v-icon>mdi-white-balance-sunny</v-icon>
-          </v-btn>
           <v-icon ></v-icon>
           <NuxtLink v-for="item in menuItems" v-bind:key="item.title" :to="item.link"><v-btn>{{item.title}}</v-btn></NuxtLink>
       </v-app-bar-items>
