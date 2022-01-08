@@ -6,7 +6,7 @@
       <NuxtLink to="/">
         <nuxt-img 
           class="mx-2"
-          src='/tdc.png'
+          src='/tdc-big.png'
           height="50"
         />
       </NuxtLink>

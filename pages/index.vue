@@ -1,7 +1,7 @@
 <template>
     <v-parallax
       dark
-      src="/yacht-group.jpg"
+      src="https://drive.google.com/uc?export=view&id=1hiA1HbYy-GPr0lJny5D2vpDnirJ6c62b"
       height="600"
     >
       <v-row justify="center" align="center">

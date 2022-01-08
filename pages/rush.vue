@@ -3,7 +3,7 @@
     <v-row>
       <v-col class="text-center">
         <h1>Rush Schedule</h1>
-        <v-sheet style="margin-top:40px" height="400">
+        <v-sheet style="margin-top:40px" height="500">
             <v-calendar
             ref="calendar"
             :now="today"
