@@ -1,22 +1,24 @@
 <template>
-  <v-row>
-    <v-col class="text-center">
-      <h1>Members of TDC</h1>
-      <v-btn
-        v-for="year in [2022, 2023, 2024, 2025]"
-        v-bind:key="year"
-        v-on:click="selectedYear = year"
-        style="margin:10px;"
-        color="navy"
-        elevation="1"
-        outlined
-        tile
-        x-large
-        :disabled="selectedYear == year"
-      >{{year}}</v-btn>
-      <MemberList style="margin-top:30px" v-bind:members="selectedMembers" />
-    </v-col>
-  </v-row>
+  <v-container style="padding-top:100px">
+    <v-row>
+      <v-col class="text-center">
+        <h1>Members of TDC</h1>
+        <v-btn
+          v-for="year in ['All', 2025, 2024, 2023, 2022, 2021]"
+          v-bind:key="year"
+          v-on:click="selectedYear = year"
+          style="margin:10px;"
+          color="navy"
+          elevation="1"
+          outlined
+          tile
+          x-large
+          :disabled="selectedYear == year"
+        >{{year}}</v-btn>
+        <MemberList style="margin-top:30px" v-bind:members="selectedMembers" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -27,12 +29,12 @@ export default {
   components: {MemberList},
   computed: {
     selectedMembers() {
-      return this.members.filter(m => m.year == this.selectedYear);
+      return this.members.filter(m => (m.year == this.selectedYear) || this.selectedYear == 'All');
     }
   },
   data () {
     return {
-      selectedYear: 2022,
+      selectedYear: 'All',
       members: [
           {
             name: 'Sergio Perez',

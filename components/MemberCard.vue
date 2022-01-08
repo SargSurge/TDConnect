@@ -1,5 +1,5 @@
 <template>
-  <v-card style="margin:10px;" max-width="225" max-height="350">
+  <v-card style="margin:10px; padding:20px" width="225" height="350">
       <nuxt-img height="200" width="175" :src="member.img" />
       <h2>{{member.name}}</h2>
       <h4>{{member.hometown}}</h4>

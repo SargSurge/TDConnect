@@ -39,10 +39,10 @@
       </v-menu>
 
     </v-app-bar>
-    <v-main>
-      <v-container>
+    <v-main style="padding:0">
+      <!-- <v-container> -->
         <Nuxt />
-      </v-container>
+      <!-- </v-container> -->
     </v-main>
     <v-footer>
       <span>&copy; {{ new Date().getFullYear() }}</span>
@@ -67,3 +67,4 @@ export default {
   }
 }
 </script>
+
