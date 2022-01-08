@@ -1,5 +1,4 @@
 <template>
-  <div>
     <v-parallax
       dark
       src="/yacht-group.jpg"
@@ -25,8 +24,7 @@
         </v-col>
       </v-row>
     </v-container> -->
-    
-  </div>
+
 </template>
 
 <script>

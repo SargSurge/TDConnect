@@ -59,7 +59,7 @@ export default {
       menuItems: [
         {title: 'Home', link: '/'},
         {title: 'Members', link: '/members'},
-        // {title: 'Rush', link: '/rush'},
+        {title: 'Rush', link: '/rush'},
         // {title: 'History', link: '/history'},
         // {title: 'Photos', link: '/photos'},
       ]
