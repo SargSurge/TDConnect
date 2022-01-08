@@ -7,11 +7,11 @@
       <v-row justify="center" align="center">
         <v-col class="text-center" cols="12" sm="8" md="6">
           <v-overlay opacity=".05" absolute>
+            <h1>Welcome To</h1>
             <nuxt-img 
               height="200px"
               src='/tdc-big.png'
             />
-            <h1>Welcome to TDC</h1>
           </v-overlay>
         </v-col>
       </v-row>
