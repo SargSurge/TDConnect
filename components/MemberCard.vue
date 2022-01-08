@@ -12,7 +12,7 @@
         <h4>{{member.course}}</h4>
         <p>{{member.bio}}</p>
     </v-card>
-    <v-dialog v-model="popupOpen" max-width="40%">
+    <v-dialog v-model="popupOpen" max-width="700">
       <v-card style="padding:20px" width="100%" height="400">
           <nuxt-img height="200" width="175" :src="member.img" />
           <h2>{{member.name}}</h2>
