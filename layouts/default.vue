@@ -18,7 +18,7 @@
       </v-btn>
       <v-app-bar-items class="hidden-sm-and-down">
           <v-icon ></v-icon>
-          <NuxtLink v-for="item in menuItems" v-bind:key="item.title" :to="item.link"><v-btn>{{item.title}}</v-btn></NuxtLink>
+          <NuxtLink v-for="item in menuItems" v-bind:key="item.title" :to="item.link"><v-btn text>{{item.title}}</v-btn></NuxtLink>
       </v-app-bar-items>
 
       <v-menu>

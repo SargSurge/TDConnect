@@ -4,8 +4,13 @@
       src="https://drive.google.com/uc?export=view&id=1-ZmlogsAQ0JfUzTaF0gk1vbpnr8DBhSB"
       height="800"
     >
+    <!-- <v-parallax
+      dark
+      src="https://drive.google.com/uc?export=view&id=1-ZmlogsAQ0JfUzTaF0gk1vbpnr8DBhSB"
+      height="800"
+    > -->
       <v-row justify="center" align="center">
-        <v-col class="text-center" cols="12" sm="8" md="6">
+        <v-col class="text-center">
           <v-overlay opacity=".05" absolute>
             <h1>Welcome To</h1>
             <nuxt-img 
@@ -32,3 +37,11 @@ export default {
   name: 'IndexPage'
 }
 </script>
+
+<style>
+/* .v-parallax__image {
+  width: 100vh !important;
+  height: auto !important;
+  transform: none !important;
+} */
+</style>

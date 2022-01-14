@@ -2,23 +2,33 @@
   <div>
     <v-card 
       style="margin:10px; padding:20px" 
-      width="225" 
-      height="350"
+      width="350" 
+      height="450"
       @click.stop="popupOpen = true"
     >
-        <nuxt-img height="200" width="175" :src="member.img" />
+        <nuxt-img height="325" width="275" :src="member.img" />
         <h2>{{member.name}}</h2>
         <h4>{{member.hometown}}</h4>
         <h4>{{member.course}}</h4>
-        <p>{{member.bio}}</p>
+        <!-- <p>{{member.bio}}</p> -->
     </v-card>
     <v-dialog v-model="popupOpen" max-width="700">
-      <v-card style="padding:20px" width="100%" height="400">
-          <nuxt-img height="200" width="175" :src="member.img" />
-          <h2>{{member.name}}</h2>
-          <h4>{{member.hometown}}</h4>
-          <h4>{{member.course}}</h4>
-          <p>{{member.bio}}</p>
+      <v-card style="padding:20px" width="100%">
+        <v-row>
+          <v-col class="text-center">
+            <nuxt-img height="250" width="200" :src="member.img" />
+          </v-col>
+          <v-col style="margin:auto" class="text-center">
+            <h2>{{member.name}}</h2>
+            <h4>{{member.hometown}}</h4>
+            <h4>{{member.course}}</h4>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-card-text>
+            <p>{{member.bio}}</p>
+          </v-card-text>
+        </v-row>
       </v-card>
     </v-dialog>
   </div>
