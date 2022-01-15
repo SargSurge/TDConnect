@@ -110,8 +110,16 @@ export default {
           },
           {
             name: 'Trinity Stallins',
-            hometown: 'Dallas, TX',
-            course: '2A-11',
+            hometown: 'Arlington, TX',
+            course: '11 & 2A-1',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2023'
+          },
+          {
+            name: 'Justice Vidal',
+            hometown: 'Elmont, NY',
+            course: '6-2',
             bio: 'TBD',
             img: '/sergio.jpeg',
             year: '2023'

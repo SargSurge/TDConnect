@@ -50,7 +50,18 @@
       <!-- </v-container> -->
     </v-main>
     <v-footer>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <NuxtLink to="/">
+        <nuxt-img 
+          class="mx-2"
+          src='/tdc-big.png'
+          height="50"
+        /> 
+      </NuxtLink>
+      <NuxtLink v-for="item in menuItems" v-bind:key="item.title" :to="item.link"><v-btn text>{{item.title}}</v-btn></NuxtLink>
+      <a href="http://tdc.mit.edu/summerhousing/"><v-btn text>Summer Housing</v-btn></a>
+      <a href="https://www.instagram.com/tdc.mit/"><v-btn text>Instagram</v-btn></a>
+      <v-spacer />
+      <span>Theta Delta Chi &copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
