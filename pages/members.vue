@@ -29,14 +29,14 @@ export default {
   components: {MemberList},
   computed: {
     selectedMembers() {
-      return this.members.filter(m => (m.year == this.selectedYear) || this.selectedYear == 'All');
+      return this.currentMembers.filter(m => (m.year == this.selectedYear) || this.selectedYear == 'All');
     }
   },
   data () {
     return {
       selectedYear: 'All',
-      members: [
-          {
+      currentMembers: [
+        {
             name: 'Sergio Perez',
             hometown: 'Lakeland, FL',
             course: '6-3',
@@ -164,8 +164,79 @@ export default {
             img: '/sergio.jpeg',
             year: '2024'
           },
-
-        ],
+          {
+            name: 'Andrii Zahorodnii',
+            hometown: 'Ukraine',
+            course: '18C',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2024'
+          },
+          {
+            name: 'Joaquin Dubon',
+            hometown: 'El Salvador',
+            course: '8',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2024'
+          },
+          {
+            name: 'Vlada Petrusenko',
+            hometown: 'Ukraine',
+            course: '18C',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2024'
+          },
+          {
+            name: 'Skye Borrero',
+            hometown: 'Orlando, FL',
+            course: '16',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2024'
+          },
+          {
+            name: 'Samuel Lima',
+            hometown: 'Brazil',
+            course: '6-2',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2024'
+          },
+          {
+            name: 'David Turturean',
+            hometown: 'Romania',
+            course: 'life',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2025'
+          },
+          {
+            name: 'Ionel Chiosa',
+            hometown: 'Romania',
+            course: '6',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2025'
+          },
+          {
+            name: 'Jaime Punyed',
+            hometown: 'El Salvador',
+            course: '6',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2025'
+          },
+          {
+            name: 'Sabrina Queipo',
+            hometown: 'the world',
+            course: '6',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            year: '2025'
+          }
+        ]
     };
   },
   
