@@ -29,7 +29,14 @@ export default {
   components: {MemberList},
   computed: {
     selectedMembers() {
-      return this.currentMembers.filter(m => (m.year == this.selectedYear) || this.selectedYear == 'All');
+      return this.currentMembers.filter(m => (m.year == this.selectedYear) || this.selectedYear == 'All').sort(this.sortMembers);
+    }
+  },
+  methods: {
+    sortMembers (a, b) {
+      if (a.name < b.name && a.year <= b.year) {return -1;}
+      if (a.name > b.name && a.year >= b.year) {return 1;}
+      return 0;
     }
   },
   data () {
