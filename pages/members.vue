@@ -133,7 +133,7 @@ export default {
           },
           {
             name: 'Otilia Don',
-            hometown: 'Moldova',
+            hometown: 'Chisinau, Moldova',
             course: '9',
             bio: 'TBD',
             img: '/otilia.jpeg',
@@ -141,7 +141,7 @@ export default {
           },
           {
             name: 'Rodrigo Posada',
-            hometown: 'El Salvador',
+            hometown: 'San Ignacio, El Salvador',
             course: '18',
             bio: 'TBD',
             img: '/rodrigo.jpeg',
@@ -149,7 +149,7 @@ export default {
           },
           {
             name: 'Edgardo Letona',
-            hometown: 'El Salvador',
+            hometown: 'San Salvador, El Salvador',
             course: '14',
             bio: 'TBD',
             img: '/edgardo.jpeg',
@@ -157,7 +157,7 @@ export default {
           },
           {
             name: 'Ygor Moura',
-            hometown: 'Brazil',
+            hometown: 'Fortaleza, Brazil',
             course: '5',
             bio: 'TBD',
             img: '/ygor.jpeg',
@@ -173,7 +173,7 @@ export default {
           },
           {
             name: 'Andrii Zahorodnii',
-            hometown: 'Ukraine',
+            hometown: 'Kyiv, Ukraine',
             course: '18C',
             bio: 'TBD',
             img: '/andrii.jpeg',
@@ -181,7 +181,7 @@ export default {
           },
           {
             name: 'Joaquin Dubon',
-            hometown: 'El Salvador',
+            hometown: 'San Salvador, El Salvador',
             course: '8',
             bio: 'TBD',
             img: '/joaquin.jpeg',
@@ -189,7 +189,7 @@ export default {
           },
           {
             name: 'Vlada Petrusenko',
-            hometown: 'Ukraine',
+            hometown: 'Kyiv, Ukraine',
             course: '18C',
             bio: 'TBD',
             img: '/sergio.jpeg',
@@ -205,7 +205,7 @@ export default {
           },
           {
             name: 'Samuel Lima',
-            hometown: 'Brazil',
+            hometown: 'Fortaleza, Brazil',
             course: '6-2',
             bio: 'TBD',
             img: '/sam.jpeg',
@@ -213,7 +213,7 @@ export default {
           },
           {
             name: 'David Turturean',
-            hometown: 'Romania',
+            hometown: 'Suceava, Romania',
             course: 'life',
             bio: 'TBD',
             img: '/david.jpeg',
@@ -221,7 +221,7 @@ export default {
           },
           {
             name: 'Ionel Chiosa',
-            hometown: 'Romania',
+            hometown: 'Onesti, Romania',
             course: '6',
             bio: 'TBD',
             img: '/ionel.jpeg',
@@ -229,7 +229,7 @@ export default {
           },
           {
             name: 'Jaime Punyed',
-            hometown: 'El Salvador',
+            hometown: 'San Salvador, El Salvador',
             course: '6',
             bio: 'TBD',
             img: '/sergio.jpeg',
@@ -237,7 +237,7 @@ export default {
           },
           {
             name: 'Sabrina Queipo',
-            hometown: 'the world',
+            hometown: 'Maracaibo, Venezuela',
             course: '6',
             bio: 'TBD',
             img: '/sabrina.jpeg',
