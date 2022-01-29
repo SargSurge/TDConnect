@@ -76,7 +76,7 @@ export default {
             course: '6-3',
             bio: 'Emerson Vaquerano is the snake charmer of the house, being the father of his snake “Aisnley.” He is majoring in computer science for two reasons: the money and just cause he enjoys coding. Emerson can usually be found on the first floor playing a few tunes or so on the house piano. Emerson worked as TA for MIT OEOP’s SEED program teaching programming to high school students. This summer Emerson is taking time for himself and searching for an internship.',
             img: '/emerson.jpeg',
-            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            song: 'https://open.spotify.com/track/1sFstGV1Z3Aw5TDFCiT7vK?si=95ad9e6c4de147f4',
             year: '2021'
           },
           {
@@ -118,10 +118,10 @@ export default {
           {
             name: 'Nicolas Suter',
             hometown: 'Glendale, CA',
-            course: '18C',
-            bio: 'TBD',
+            course: '18C & 21M-Music',
+            bio: "Nicolas Suter is a '23 double majoring in 18C and 21M-Music. He loves listening to progressive metal, alt hip hop, and jazz fusion. He likes to eat good food, spend time with his friends, and remind his fellow TDCs to drink water.\nAcademically, he's interested in theoretical computer science, especially in algorithms, and he is pursuing a career in quantitative finance.",
             img: '/nicolas.jpeg',
-            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            song: 'https://open.spotify.com/track/7hBygJQ4O8ZPKTLtkNxrve?si=ed4ffc84e8b743c6',
             year: '2023'
           },
           {
@@ -171,9 +171,9 @@ export default {
           },
           {
             name: 'Ygor Moura',
-            hometown: 'Fortaleza, Brazil',
-            course: '5',
-            bio: 'TBD',
+            hometown: 'Niterói, Rio de Janeiro, Brasil',
+            course: '5 & 6-3',
+            bio: 'Straight out of a fake hemisphere, ygor will try one of those things with you:\n1) feed you\n2) hug you\n3) compliment you\n4) explain what computational chemistry is\nIn any of these cases do not trust him as he has been reported for illegal activity for the Russian government. Suspicious activity include: majoring in chemistry, interest in computer science, sleeping and waking up early-ish, swimming, cooking, participation in the International Student Association, involvement in Banana Lounge activities (known for making social experiments), love for the beach and warm weather. Under request will give you an comprehensive playlist for Brazilian music, do not ask about sad cats as it can cause serious emotional damage to the subject',
             img: '/ygor.jpeg',
             song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
             year: '2024'
@@ -208,10 +208,10 @@ export default {
           {
             name: 'Vlada Petrusenko',
             hometown: 'Kyiv, Ukraine',
-            course: '18C',
+            course: '6-3',
             bio: 'TBD',
             img: '/sergio.jpeg',
-            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            song: 'https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k?si=05f793a6b01d44d1',
             year: '2024'
           },
           {
@@ -225,7 +225,7 @@ export default {
           },
           {
             name: 'Samuel Lima',
-            hometown: 'Fortaleza, Brazil',
+            hometown: 'Fortaleza, Brasil',
             course: '6-2',
             bio: 'TBD',
             img: '/sam.jpeg',
