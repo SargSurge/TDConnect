@@ -13,7 +13,7 @@
             <h1>Welcome To</h1>
             <nuxt-img 
               height="200px"
-              src='/tdc-big.png'
+              src='/img/tdc-big.png'
             />
           </v-col>
           <v-col class="text-center" cols="12">

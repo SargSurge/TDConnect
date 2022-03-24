@@ -11,7 +11,7 @@
         height="450"
         @click.stop="popupOpen = true"
       >
-          <nuxt-img height="325" width="275" :src="member.img" />
+          <nuxt-img height="325" width="275" :src="'/img' + member.img" />
           <h2>{{member.name}}</h2>
           <h4>{{member.hometown}}</h4>
           <h4>{{member.course}}</h4>
@@ -22,7 +22,7 @@
       <v-card style="padding:20px" width="100%">
         <v-row>
           <v-col cols="12" sm="12" md="6"  class="text-center">
-            <nuxt-img height="250" width="200" :src="member.img" />
+            <nuxt-img height="250" width="200" :src="'/img' + member.img" />
           </v-col>
           <v-col col="12" sm="12" md="6" style="margin:auto" class="text-center">
             <h2>{{member.name}}</h2>

@@ -7,7 +7,7 @@
       <NuxtLink to="/">
         <nuxt-img 
           class="mx-2"
-          src='/tdc-big.png'
+          src='/img/tdc-big.png'
           height="50"
         />
       </NuxtLink>
@@ -53,12 +53,12 @@
       <NuxtLink to="/">
         <nuxt-img 
           class="mx-2"
-          src='/tdc-big.png'
+          src='/img/tdc-big.png'
           height="50"
         /> 
       </NuxtLink>
       <NuxtLink v-for="item in menuItems" v-bind:key="item.title" :to="item.link"><v-btn text>{{item.title}}</v-btn></NuxtLink>
-      <a href="http://tdc.mit.edu/summerhousing/"><v-btn text>Summer Housing</v-btn></a>
+      <a href="http://tdc.mit.edu/alumni/"><v-btn text>Alumni</v-btn></a>
       <a href="https://www.instagram.com/tdc.mit/"><v-btn text>Instagram</v-btn></a>
       <v-spacer />
       <span>Theta Delta Chi &copy; {{ new Date().getFullYear() }}</span>
@@ -76,6 +76,7 @@ export default {
         {title: 'Home', link: '/'},
         {title: 'Members', link: '/members'},
         {title: 'Rush', link: '/rush'},
+        {title: 'Summer', link: '/summer'},
         // {title: 'History', link: '/history'},
         // {title: 'Photos', link: '/photos'},
       ]

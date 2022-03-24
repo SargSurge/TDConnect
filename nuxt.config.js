@@ -6,7 +6,7 @@ export default {
 
   // CHANGE WHEN MOVING TO ROOT FOLDER
   router: {
-    base: '/tdconnect/'
+    base: '/'
   },
 
   // Target: https://go.nuxtjs.dev/config-target
