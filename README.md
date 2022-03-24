@@ -1,5 +1,16 @@
 # TDConnect
 
+## How to deploy
+
+Locally:
+scp -r dist {kerb}@athena.dialup.mit.edu:/afs/activity/t/tdc/web_scripts
+
+Inside of web_scripts: 
+mv dist/* .
+Remove appropiate files from web_scripts
+rm -r dist
+
+
 ## Build Setup
 
 ```bash
