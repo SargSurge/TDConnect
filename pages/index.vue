@@ -6,7 +6,6 @@
       src="https://drive.google.com/uc?export=view&id=1Me_Cb8zLa0ri9K7liHOlZk-rw4xL0Xr-"
       height="600"
     >
-
       <v-row justify="center" align="center">
         <v-overlay opacity=".1" absolute>
           <v-col cols="12" class="text-center">
@@ -42,6 +41,24 @@
       </v-row>
     </v-parallax>
     
+    <v-banner
+      v-model="v0"
+      sticky
+      transition="slide-y-transition"
+      style="text-align:center"
+    >
+      <h3>We are now accepting applications for summer housing!</h3>
+        <template v-slot:actions="{ dismiss }">
+          <v-btn
+            text
+            color="primary"
+            @click="dismiss"
+          >
+            Dismiss
+          </v-btn>
+        </template>
+    </v-banner>
+
     <v-container style="padding-top:30px; padding-bottom:50px">
       <v-row align="center">
         <v-col>
@@ -55,6 +72,11 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data() {
+    return {
+     v0: true
+    }
+  }
 }
 </script>
