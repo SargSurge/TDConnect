@@ -36,7 +36,7 @@
       <v-col>
         <div>
             <h2>Pricing</h2>
-            <p>Our housing prices make living at Theta Delta Chi one of the most affordable living situations possible. <br> Rooms are available in a 3 month package from Saturday, May 28th to Saturday, August 27th. <br> All prices reflect the full summer 3-month package.</p>
+            <p>Our housing prices make living at Theta Delta Chi one of the most affordable living situations possible. <br> Rooms are available in a 3 month package from Wednesday, May 25th to Wednesday, August 24th. <br> All prices reflect the full summer 3-month package.</p>
         </div>
         <ul>
             <li><b>Single</b> - ???</li>

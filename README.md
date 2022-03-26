@@ -4,7 +4,7 @@
 
 Locally:
 npm run generate
-scp -r dist {kerb}@athena.dialup.mit.edu:/afs/activity/t/tdc/web_scripts
+scp -r dist {kerb}@athena.dialup.mit.edu:/afs/athena/activity/t/tdc/web_scripts
 
 Inside of web_scripts: 
 mv dist/* .
