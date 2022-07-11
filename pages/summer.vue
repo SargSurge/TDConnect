@@ -26,7 +26,7 @@
         <h3 style="padding-bottom:10px;">TDC is a great place to live for a multitude of reasons:</h3>  
         <ul>
             <li><b>Location</b> - TDC is the closest fraternity to MIT campus, so you can sleep in a little more and get to lab or the 1 bus faster.</li>
-            <li><b>House culture</b> - Our brotherhood is quite eclectic and unique. Whether you like to jam with others, paint murals, watch movies, or talk about physics and philosophy, you'll find someone to hang out with.</li>
+            <li><b>House culture</b> - Our members are quite eclectic and unique. Whether you like to jam with others, paint murals, watch movies, or talk about physics and philosophy, you'll find someone to hang out with.</li>
             <li><b>Safety</b> - MIT campus is monitored by MIT Police 24/7, so you can ensure peace of mind with us.</li>
             <li><b>Roofdecks</b> - We have three roofdecks and a balcony facing the river that allow for beautiful breezes and summertime relaxation.</li>
         </ul>
@@ -39,11 +39,24 @@
             <p>Our housing prices make living at Theta Delta Chi one of the most affordable living situations possible. <br> Rooms are available in a 3 month package from Wednesday, May 25th to Wednesday, August 24th. <br> All prices reflect the full summer 3-month package.</p>
         </div>
         <ul>
-            <li><b>Single</b> - ???</li>
-            <li><b>Double</b> - ???</li>
-            <li><b>Triple</b> - ???</li>
-            <li><b>Quad</b> - ???</li>
+            <li><b>Single</b> - $3000</li>
+            <li><b>Double</b> - $2800</li>
+            <li><b>Triple</b> - $2600</li>
+            <li><b>Quad</b>   - $2400</li>
         </ul>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <div>
+            <h2>Application Timeline</h2>
+        </div>
+        <ol>
+            <li>You apply by filling out our google form!</li>
+            <li>We are reviewing applications on a rolling basis, if you are approved we will reach out to you with much more information. You'll also receive a leasing agreement and a request for a security deposit of $500.</li>
+            <li>After receiving the leasing agreement, you'll have a week to return a signed agreement and pay the deposit. After that week, we won't hold your spot, so there is no guarantee that there is still space.</li>
+            <li>Once everything is submitted, you're all set until you move in! Your full rent will be due on the first day of our move-in period, Wednesday, May 24th at 11:59pm.</li>
+        </ol>
       </v-col>
     </v-row>
     <v-row>

@@ -2,7 +2,7 @@
   <v-container style="padding-top:100px; padding-bottom:50px">
     <v-row>
       <v-col class="text-center">
-        <h1>Members of TDC</h1>
+        <h1>Members of Theta Deuteron</h1>
         <v-btn
           v-for="year in ['All', 2025, 2024, 2023, 2022, 2021]"
           v-bind:key="year"
