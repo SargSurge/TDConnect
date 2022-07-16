@@ -47,7 +47,7 @@
       transition="slide-y-transition"
       style="text-align:center"
     >
-      <h3>We are now accepting applications for summer housing!</h3>
+      <h3>We are now accepting applications for fall housing!</h3>
         <template v-slot:actions="{ dismiss }">
           <v-btn
             text

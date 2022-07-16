@@ -9,7 +9,7 @@ scp -r dist {kerb}@athena.dialup.mit.edu:/afs/athena/activity/t/tdc/web_scripts
 Inside athena: (ssh {kerb}@athena.dialup.mit.edu)
 cd /afs/athena/activity/t/tdc/web_scripts
 Remove appropiate files from web_scripts:
-rm -r img && rm -r members && rm -r rush && rm -r summer && rm -r _nuxt ... (all the files needed going to be replaced)
+rm -r img && rm -r members && rm -r rush && rm -r housing && rm -r _nuxt ... (all the files needed going to be replaced)
 mv dist/* .
 rm -r dist
 

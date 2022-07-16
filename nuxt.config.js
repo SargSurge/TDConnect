@@ -14,8 +14,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - TDConnect',
-    title: 'TDConnect',
+    // titleTemplate: '%s - Theta Delta Chi',
+    title: 'Theta Delta Chi',
     htmlAttrs: {
       lang: 'en'
     },

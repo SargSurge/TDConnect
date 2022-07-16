@@ -76,7 +76,7 @@ export default {
         {title: 'Home', link: '/'},
         {title: 'Members', link: '/members'},
         {title: 'Rush', link: '/rush'},
-        {title: 'Summer', link: '/summer'},
+        {title: 'Housing', link: '/housing'},
         // {title: 'History', link: '/history'},
         // {title: 'Photos', link: '/photos'},
       ]

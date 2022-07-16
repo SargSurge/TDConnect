@@ -22,8 +22,8 @@
         <h2>Here at TDC we value camaraderie, inclusion, and autonomy.</h2>
         <h2>Peace. Love. Mutual Aid.</h2>  
         <iframe style="margin-top:50px;margin-bottom:50px" width="90%" height="400" src="https://www.youtube-nocookie.com/embed/w0r-SrCv8fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
-        <h1>Rush Schedule</h1>
-        <h1>Coming Soon!</h1>
+        <!-- <h1>Fall 2022 Rush Events</h1> -->
+        <!-- <RushList :events="events"/> -->
         <!-- <v-sheet style="margin-top:40px" height="500">
             <v-calendar
             ref="calendar"
@@ -41,6 +41,8 @@
 </template>
 
 <script>
+// import RushList from "../components/RushList.vue";
+
 export default {
   name: 'RushPage',
   components: {},
