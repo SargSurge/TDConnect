@@ -2,9 +2,9 @@
   <v-container style="padding-top:100px; padding-bottom:50px">
     <v-row>
       <v-col class="text-center">
-        <h1>Members of Theta Deuteron</h1>
+        <h1>Members</h1>
         <v-btn
-          v-for="year in ['All', 2025, 2024, 2023, 2022, 2021]"
+          v-for="year in ['All', 2025, 2024, 2023, 2022]"
           v-bind:key="year"
           v-on:click="selectedYear = year"
           style="margin:10px;"
@@ -49,7 +49,7 @@ export default {
             course: '6-3',
             bio: 'Sergio “Surge” Perez is a rising sophomore studying Computer Science with a minor in Economics. He attributes his success as MIT Robotics Team’s Chief Marketing Officer to his experience playing Rocket League. Sergio says that being brother of TDC has helped him grow as an individual and explore what he is truly passionate about. This summer he is working on his Course 15 UROP, working on an optimization algorithm for flight scheduling. He is already set on gaining his Masters of Engineering, specializing in artificial intelligence.',
             img: '/surge.png',
-            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            song: 'https://open.spotify.com/track/0O6u0VJ46W86TxN9wgyqDj?si=0152f6424a7541e3',
             year: '2023'
           },
           {
@@ -79,15 +79,15 @@ export default {
             song: 'https://open.spotify.com/track/1sFstGV1Z3Aw5TDFCiT7vK?si=95ad9e6c4de147f4',
             year: '2021'
           },
-          {
-            name: 'Terry Kang',
-            hometown: 'Reddit',
-            course: '18C',
-            bio: 'Terry Kang is a rising junior studying mathematics. He appreciates the existence and the observation of the aquatic bird of the Spheniscidae family, more commonly known as the humble penguin. Alongside the gratitude he holds for Aptenodytes, he has a keen interest in media that pertains in the objective of cognitive arousal within a sexual context. It is an understood assumption that since his arrival into consciousness, the general public and the world at large has reverted some level of positive progress previously made.',
-            img: '/terry.jpeg',
-            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
-            year: '2022'
-          },
+          // {
+          //   name: 'Terry Kang',
+          //   hometown: 'Reddit',
+          //   course: '18C',
+          //   bio: 'Terry Kang is a rising junior studying mathematics. He appreciates the existence and the observation of the aquatic bird of the Spheniscidae family, more commonly known as the humble penguin. Alongside the gratitude he holds for Aptenodytes, he has a keen interest in media that pertains in the objective of cognitive arousal within a sexual context. It is an understood assumption that since his arrival into consciousness, the general public and the world at large has reverted some level of positive progress previously made.',
+          //   img: '/terry.jpeg',
+          //   song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+          //   year: '2022'
+          // },
           {
             name: 'Ben Barrera',
             hometown: 'Houston, TX',
@@ -100,7 +100,7 @@ export default {
           {
             name: 'Mohit Dighamber',
             hometown: 'Ohio',
-            course: '8',
+            course: '8 & 6-14',
             bio: "I am also a sophomore majoring in physics and minoring in mathematics. Outside of TDC, I spend my time UROPing in astrophysics, leading MIT's QuestBridge chapter, and playing the piano. Fun fact about me: I have moved a total of ten times in my life.",
             img: '/mohit.jpeg',
             song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
@@ -161,13 +161,13 @@ export default {
             year: '2022'
           },
           {
-            name: 'Edgardo Letona',
-            hometown: 'San Salvador, El Salvador',
-            course: '14',
+            name: 'Fedir Yudin',
+            hometown: 'Kyiv, Ukraine',
+            course: '18',
             bio: 'TBD',
-            img: '/edgardo.jpeg',
+            img: '/sergio.jpeg',
             song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
-            year: '2022'
+            year: '2025'
           },
           {
             name: 'Ygor Moura',
@@ -260,14 +260,59 @@ export default {
             year: '2025'
           },
           {
-            name: 'Sabrina Queipo',
-            hometown: 'Maracaibo, Venezuela',
-            course: '6',
+            name: 'Almog Hillel',
+            hometown: 'Israel',
+            course: '6-9',
             bio: 'TBD',
-            img: '/sabrina.jpeg',
+            img: '/sergio.jpeg',
             song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
             year: '2025'
-          }
+          },
+          {
+            name: 'Janka Hámori',
+            hometown: 'Szeged, Hungary',
+            course: '6-14',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            year: '2025'
+          },
+          {
+            name: 'José Sanchéz',
+            hometown: 'Venezuela',
+            course: '6-3',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            year: '2025'
+          },
+          {
+            name: 'George Joubran Abu Dauod',
+            hometown: 'Palestine',
+            course: '6-3',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            year: '2024'
+          },
+          {
+            name: 'Isabel Cardenas',
+            hometown: 'Houston, TX',
+            course: '6-3',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            year: '2025'
+          },
+          {
+            name: 'Brenda Fernandez',
+            hometown: 'California',
+            course: '6-3',
+            bio: 'TBD',
+            img: '/sergio.jpeg',
+            song: 'https://open.spotify.com/track/7lPN2DXiMsVn7XUKtOW1CS?si=a970908e401149c0',
+            year: '2024'
+          },
         ]
     };
   },

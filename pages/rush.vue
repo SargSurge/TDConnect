@@ -15,13 +15,32 @@
         </v-col>
       </v-row>
     </v-parallax>
+
   <v-container style="padding-top:50px; padding-bottom:50px;">
-    <v-row>
-      <v-col class="text-center">
-        <h2>We’re Theta Delta Chi, but people usually call us TDC.</h2>
-        <h2>Here at TDC we value camaraderie, inclusion, and autonomy.</h2>
-        <h2>Peace. Love. Mutual Aid.</h2>  
-        <iframe style="margin-top:50px;margin-bottom:50px" width="90%" height="400" src="https://www.youtube-nocookie.com/embed/w0r-SrCv8fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+    <v-col>
+  <div class="d-flex justify-space-between flex-wrap">
+        <div style="max-width:700px; margin-bottom:15px">
+          <h2>Welcome to TDC!</h2>
+          <p>We’re Theta Delta Chi, a Gender-Inclusive Fraternity.</p>
+          <p>We allow members to build and paint within the walls of our house (and courtyard) and have a fully equipped makerspace for them to make their ideas a reality. Members of TDC actually designed and built our entire fourth floor!</p>
+          <p>We can be found talking, studying, and snacking at all times throughout the day in the House. We love to ideate together, boost each others’ ideas and entrepreneurial pursuits, and support each others’ professional development. We also inspire each other to lead within our communities, whether that be at MIT, Boston, or beyond.</p>
+          <p>Join us at TDC! Impromptu adventures! Hiking! Exploring! Dreaming! Discourse! A place for everyone! Introvert or extrovert. We want you here to experience life with us! You can find us at the house after Baker with the owl or the purple light. Our doors are open and we’re excited to meet you!</p>  
+        </div>
+        <div>
+          <iframe style="min-width:400px" height="400" src="https://www.youtube-nocookie.com/embed/w0r-SrCv8fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        </div>
+  </div>
+</v-col>
+    <!-- <v-row>
+      <v-col>
+        <h2>Welcome to TDC!</h2>
+        <p>We’re Theta Delta Chi, a Gender-Inclusive Fraternity.</p>
+        <p>We allow members to build and paint within the walls of our house (and courtyard) and have a fully equipped makerspace for them to make their ideas a reality. Members of TDC actually designed and built our entire fourth floor!</p>
+        <p>We can be found talking, studying, and snacking at all times throughout the day in the House. We love to ideate together, boost each others’ ideas and entrepreneurial pursuits, and support each others’ professional development. We also inspire each other to lead within our communities, whether that be at MIT, Boston, or beyond.</p>
+        <p>Join us at TDC! Impromptu adventures! Hiking! Exploring! Dreaming! Discourse! A place for everyone! Introvert or extrovert. We want you here to experience life with us! You can find us at the house after Baker with the owl or the purple light. Our doors are open and we’re excited to meet you!</p>  
+      </v-col>
+      <v-col>
+        <iframe style="margin-left:15px" width="90%" height="400" src="https://www.youtube-nocookie.com/embed/w0r-SrCv8fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
         <!-- <h1>Fall 2022 Rush Events</h1> -->
         <!-- <RushList :events="events"/> -->
         <!-- <v-sheet style="margin-top:40px" height="500">
@@ -34,8 +53,8 @@
             type="week"
             ></v-calendar>
         </v-sheet> -->
-      </v-col>
-    </v-row>
+      <!-- </v-col>
+    </v-row> --> 
   </v-container>
 </div>
 </template>
